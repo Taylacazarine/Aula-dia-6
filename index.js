@@ -8,7 +8,7 @@ servidor.get ('/pessoa/:nome/:idade', (req,res) =>{
         res.send(`Seu nome é ${nome} e sua idade é ${idade} anos.`)
 
 })
-const porta = 3027;
+const porta = 3028;
 
 servidor.listen(porta, () => {
   console.log("Afonso servidor está ligado");
